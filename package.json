@@ -1,0 +1,7 @@
+{
+  "name": "hanging_gardens_of_babylon",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
