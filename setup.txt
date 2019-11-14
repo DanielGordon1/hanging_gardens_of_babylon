@@ -1,0 +1,25 @@
+This livecode will be divided in 2 parts:
+
+First we’ll add a new Tag model (we’ll seed them) and a join table to model a N:N relationship between plants and tags!
+Then we’ll make some frontend improvements using JavaScript and Webpack (1 external package, and some custom JS).
+
+
+1 Add webpack to our app
+
+2 Generate Tag Model
+
+3 Generate PlantTag model
+
+4 Fix associations + Add seeds for tags
+
+-- Data Done
+
+1 Setup routes + necesarry controller to add tags to plants
+
+2 Add links to create PlantTags + create form to add tags
+
+3 Finish controller action
+
+4 Improve UI/UX with library
+
+5 Optional - ability to show hide new plant form
