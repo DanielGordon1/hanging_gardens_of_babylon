@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2">
+      <h2>Add a tag</h2>
+      <%= simple_form_for [@plant, @plant_tag] do |f| %>
+        <%= f.input :tag,
+          collection: @tags,
+          input_html: { multiple: true, class: 'multiple-select' },
+          include_hidden: false %>
+        <%= f.submit 'Add Tag', class: 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>

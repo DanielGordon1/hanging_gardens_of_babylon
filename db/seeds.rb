@@ -1,4 +1,5 @@
 Garden.destroy_all if Rails.env.development?
+Tag.destroy_all if Rails.env.development?
 
 epic = Garden.create!(
   name: "Epic hanging stuff garden",
@@ -26,3 +27,9 @@ Plant.create!(
   image_url: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/plants/dieffenbachia.jpg",
   garden: little
 )
+
+tag_names = %w[prickly cornichonly porkly smelly flower cactus ugly pretty]
+
+tag_names.each do |name|
+  Tag.create!(name: name)
+end

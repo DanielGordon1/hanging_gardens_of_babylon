@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
+gem 'webpacker', '~> 4.x'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
